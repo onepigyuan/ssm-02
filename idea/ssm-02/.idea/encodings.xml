@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="Encoding">
+    <file url="file://$PROJECT_DIR$/src/main/java/com/ckm/controller/LoginController.java" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/src/main/java/com/ckm/controller/RegisterController.java" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/src/main/java/com/ckm/controller/RootCurriculumController.java" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/src/main/java/com/ckm/controller/RootStudentController.java" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/src/main/java/com/ckm/controller/RootTeacherController.java" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/src/main/java/com/ckm/controller/StudentCurriculumController.java" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/src/main/java/com/ckm/controller/TeacherCurriculumController.java" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/src/main/java/com/ckm/dao/LoginDao.java" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/src/main/java/com/ckm/dao/RootCurriculumDao.java" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/src/main/java/com/ckm/dao/RootStudentDao.java" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/src/main/java/com/ckm/dao/RootTeacherDao.java" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/src/main/java/com/ckm/dao/StudentCurriculumDao.java" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/src/main/java/com/ckm/dao/TeacherCurriculumDao.java" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/src/main/java/com/ckm/pojo/Curriculum.java" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/src/main/java/com/ckm/pojo/Root.java" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/src/main/java/com/ckm/pojo/Student.java" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/src/main/java/com/ckm/pojo/Teacher.java" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/src/main/java/com/ckm/service/LoginService.java" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/src/main/java/com/ckm/service/RootCurriculumService.java" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/src/main/java/com/ckm/service/RootStudentService.java" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/src/main/java/com/ckm/service/RootTeacherService.java" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/src/main/java/com/ckm/service/StudentCurriculumService.java" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/src/main/java/com/ckm/service/TeacherCurriculumService.java" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/src/main/java/com/ckm/utils/Constants.java" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/src/main/java/com/ckm/utils/MD5.java" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/src/main/java/com/ckm/utils/RootLoginFilter.java" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/src/main/java/com/ckm/utils/StudentLoginFilter.java" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/src/main/java/com/ckm/utils/TeacherLoginFilter.java" charset="GBK" />
+  </component>
+</project>

@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xmlns:p="http://www.springframework.org/schema/p"
+       xmlns:context="http://www.springframework.org/schema/context"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans
+                           http://www.springframework.org/schema/beans/spring-beans.xsd
+                           http://www.springframework.org/schema/context
+                           http://www.springframework.org/schema/context/spring-context-4.2.xsd">
+
+    <!--扫描service下的包-->
+    <context:component-scan base-package="com.ckm.service"/>
+
+    <!--将我们所有的业务类，注入到spring，可以通过配置 或者 注解实现（@Service、@Autowired）-->
+    <bean id="loginServiceImpl" class="com.ckm.service.LoginServiceImpl"/> 
+    <bean id="studentServiceImpl" class="com.ckm.service.RootStudentServiceImpl"/>
+    <bean id="curriculumServiceImpl" class="com.ckm.service.RootCurriculumServiceImpl"/>
+    <bean id="teacherCurriculumServiceImpl" class="com.ckm.service.TeacherCurriculumServiceImpl"/>
+    
+
+    <!--声明事务配置-->
+    <bean id="transactionManager" class="org.springframework.jdbc.datasource.DataSourceTransactionManager">
+        <!--注入数据源-->
+        <property name="dataSource" ref="dataSource"/>
+    </bean>
+    
+    
+    
+    <!--QQ发送邮箱验证码-->
+
+    <!--配置邮件接口-->
+    <bean id="javaMailSender" class="org.springframework.mail.javamail.JavaMailSenderImpl">
+        <property name="host" value="smtp.qq.com"/>
+        <property name="username" value="809945573@qq.com"/>
+        <property name="password" value="aaliagxpdbfqbehj"/>
+        <property name="defaultEncoding" value="utf-8"/>
+        <property name="javaMailProperties">
+            <props>
+                <prop key="mail.smtp.auth">true</prop>
+                <prop key="mail.smtp.timeout">20000</prop>
+            </props>
+        </property>
+    </bean>
+</beans>
